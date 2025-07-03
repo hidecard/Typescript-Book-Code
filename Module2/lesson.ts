@@ -34,3 +34,22 @@
 // console.log(greet("Mg Mg", 25)); // Hello, Mg Mg! You are 25 years old.
 // console.log(greet("Mg Mg", "30")); // အမှား: Argument of type 'string' is not assignable to parameter of type 'number' 
 
+// optional parameter
+// function welcome(name: string, greeting?: string): string {
+//   return `${greeting || "Hello"}, ${name}!`;
+// }
+// console.log(welcome("Aung Aung")); // Hello, Aung Aung!
+// console.log(welcome("Aung Aung", "Hi")); // Hi, Aung Aung!
+
+
+// default parameter
+
+
+// function sayHello(name: string, greeting: string = "Hello"): string {
+//   return `${greeting}, ${name}!`;
+// }
+// console.log(sayHello("Mg Mg")); // Hello, Mg Mg!
+// console.log(sayHello("Mg Mg", "Hi")); // Hi, Mg Mg!
+
+
+
