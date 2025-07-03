@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "none",
+    "outDir": "./dist",
+    "strict": true
+  },
+  "include": ["src/**/*"]
+}
