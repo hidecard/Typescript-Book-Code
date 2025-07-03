@@ -59,3 +59,8 @@
 // id = 123; // အဆင်ပြေပါတယ်
 // id = true; // အမှား: Type 'boolean' is not assignable to type 'string | number'
 
+// type Name = { name: string };
+// type Age = { age: number };
+// type Person = Name & Age;
+// let person: Person = { name: "Mg Mg", age: 25 };
+// console.log(person); // { name: "Mg Mg", age: 25 }
