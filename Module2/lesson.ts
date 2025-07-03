@@ -52,4 +52,10 @@
 // console.log(sayHello("Mg Mg", "Hi")); // Hi, Mg Mg!
 
 
+// Union နဲ့ Intersection အမျိုးအစားများ
+
+// let id: string | number;
+// id = "123"; // အဆင်ပြေပါတယ်
+// id = 123; // အဆင်ပြေပါတယ်
+// id = true; // အမှား: Type 'boolean' is not assignable to type 'string | number'
 
