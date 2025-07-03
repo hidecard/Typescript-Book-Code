@@ -15,3 +15,11 @@
 // numbers.push(5); // အဆင်ပြေပါတယ်
 // numbers.push("6"); // အမှား: Argument of type 'string' is not assignable to parameter of type 'number'
 
+let person: [string, number] = ["Mg Mg", 25];
+console.log(person); // ["Mg Mg", 25]
+person[0] = "Aung Aung"; // အဆင်ပြေပါတယ်
+person[1] = "30"; // အမှား: Type 'string' is not assignable to type 'number'
+
+
+let count = 10; // TypeScript က count ကို number အဖြစ် ခန့်မှန်းပါတယ်
+count = "ten"; // အမှား: Type 'string' is not assignable to type 'numbe
